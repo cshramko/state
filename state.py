@@ -22,7 +22,6 @@
 ###   Boston, MA 02110-1301, USA
 ###
 
-from ast import Return
 from typing import Any
 
 class State:
