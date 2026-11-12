@@ -23,6 +23,22 @@
 ###
 
 from typing import Any
+from typing import Optional
+
+class StateError(Exception):
+    '''Base class for all state-related errors.'''
+    ...
+
+class NamespaceError(StateError):
+    '''Errors related to state namespace operations.'''
+    ...
+
+class DynamicAttributeError(StateError):
+    '''Errors related to state dynamic attribute operations.'''
+    ...
+class ToggleError(StateError):
+    '''Errors related to state boolean toggle operations.'''
+    ...
 
 class State:
     """

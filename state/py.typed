@@ -1,0 +1,6 @@
+#
+# Marker File used by Python type checkers to signal that
+# a package or mnodule supports PIP 484 type hints.
+#
+# see: https://peps.python.org/pep-0484
+#
